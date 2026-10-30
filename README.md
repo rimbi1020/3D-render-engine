@@ -1,6 +1,7 @@
 # 3D Render Engine
 
-A 3D renderer written in Java.
+A 3D renderer written in Java. 
+
 ![The finished renderer: a shaded sphere with heading and pitch sliders](docs/app.png)
 
 
