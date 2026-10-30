@@ -1,28 +1,15 @@
 # 3D Render Engine
 
-A tiny 3D renderer written in plain Java. No OpenGL, no game engine, no libraries: every pixel is
-computed by our own code and written into an image, which Swing then puts on the screen.
-
+A 3D renderer written in Java.
 ![The finished renderer: a shaded sphere with heading and pitch sliders](docs/app.png)
-
-Drag the **bottom slider** to spin the model left and right (heading) and the **side slider** to
-tilt it up and down (pitch).
-
-Based on the tutorial
-[How to create your own simple 3D render engine in pure Java](http://blog.rogach.org/2015/08/how-to-create-your-own-simple-3d-render.html)
-by Rogach.
 
 ## Running it
 
-You need Java 22 or newer (it runs the source files directly, no build step):
+You need Java 22 or newer:
 
 ```sh
 java "src/DemoViewer.java"
 ```
-
-The quotes matter if the folder path contains spaces. Close the window to stop the program.
-
-Or open the project in IntelliJ IDEA and run `DemoViewer`.
 
 ## Files
 
