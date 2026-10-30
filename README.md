@@ -73,7 +73,6 @@ To fill a triangle, the code:
    how much each corner "pulls" on that point, and they always add up to 1;
 3. if all three are between 0 and 1, the pixel is **inside** the triangle and gets colored.
 
-![How a triangle is turned into pixels](docs/rasterize.svg)
 
 ```java
 double b1 = ((y - v3.y) * (v2.x - v3.x) + (v2.y - v3.y) * (v3.x - x)) / triangleArea;
